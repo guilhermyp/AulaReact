@@ -1,4 +1,6 @@
 import React from "react";
+import ComponenteExemplo from "./ComponenteExemplo";
+import ConsultarCep from "./ConsultarCep";
 //1 - Um componente SEMPRE deve começar com a primeira letra
 //maiúscula
 //2 - Todo componente DEVE ser uma função do JS
@@ -6,7 +8,7 @@ import React from "react";
 function App() {
   return (
     <div>
-      <h1>Projeto base em React com TypeScript</h1>
+      <ConsultarCep/>
     </div>
   );
 }
